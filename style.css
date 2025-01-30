@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');*
+body{
+    font-family: "Mukta", serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container
+{
+    margin: auto;
+    max-width: 1200px;
+}
+.top{
+    background: black;
+    color: white;
+    padding: 10px 0;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top ul{
+    display: flex;
+    gap: 20px;
+}
+.top-left i{
+    color: #967b4f;
+}
+
+/* 1st end */
+
+.logo{
+    width: 200px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+header
+{
+    padding: 10px 0;
+}
+
+/* 2nd end */
+
+.banner img{
+    width: 100%;
+    padding-top: 20px;
+}
+
+/* 3rd end */
+
+.about
+{
+    padding: 60px 0;
+}
+
+.about-left, .about-right
+{
+    flex-basis: 50%;
+}
+.about-left h2{
+    color: #967b4f;
+}
+.btn
+{
+    background: #EA1D25;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 20px;
+    border: none ;
+    margin: 20px 0;
+}
+p
+{
+    line-height: 1.7;
+    padding-top: 20px;
+}
+.gap
+{
+    gap:30px;
+}
+
+/* 4th end */
+
+.gap{
+    gap:30px;
+}
+
+.abox{
+    width: 380px;
+    box-shadow: 0px 0px 10px 0px #0e0e0e58;
+}
+.abox img{
+    width:100%;
+}
+.abox-c
+{
+    padding: 20px;
+}
+
+.abox-fotter
+{
+    padding: 20px;
+    border-top: 1px solid #0e0e0e58;
+    border-bottom: 1px solid #0e0e0e58 ;
+}
+
+.activity h2{
+    color: #967b4f;
+    padding: 20px 0;
+}
+.abox-c a{
+    color: #EA1D25;
+    
+    
+}
+.wrap{
+    flex-wrap: wrap;
+}
+
+/* 5th end */
+
+.footer-top
+{
+    background: black;
+    color: white;
+    padding: 20px 0;
+    margin-top: 60px;
+}
+
+.footer-top ul{
+    display:flex;
+    gap: 20px;
+}
+
+.footer-bottom
+{
+    background:#967b4f;
+    color: white;
+    padding: 10px 0;
+}
+
+/* footer end */
+
+/* About page css */
+
+.breadcrumb
+{
+    background: #967b4f;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+.main{
+    padding: 40px 0;
+}
+
+main
+{
+    flex-basis: 60%;
+}
+
+main h4{
+    font-weight: bold;
+    padding: 20px 0;
+    font: 20px;
+}
+
+.py
+{
+    padding: 10px 0;
+}
+
+aside{
+    flex-basis: 40%;
+}
+
+.row{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.start{
+    align-items: start;
+}
+
+.thumb{
+    width: 130px;
+}
+
+.row h5{
+    color: #967b4f;
+}
